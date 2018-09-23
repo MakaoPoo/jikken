@@ -1,0 +1,15 @@
+.img_canvas {
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
+
+.range_wrapper {
+  display: block;
+  width: 600px;
+  margin: 0 0 0 550px;
+}
+
+.range_wrapper > input {
+  display: inline-block;
+}
