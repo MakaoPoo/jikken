@@ -6,10 +6,19 @@
 
 .range_wrapper {
   display: block;
-  width: 600px;
-  margin: 0 0 0 550px;
+  width: 400px;
+  margin-top: 20px;
 }
 
-.range_wrapper > input {
+.range_wrapper > input[type="range"] {
   display: inline-block;
+  width: 90px;
+}
+
+.range_wrapper > input[type="button"] {
+  width: 50px;
+}
+
+.color_btn-0, .color_btn-1, .color_btn-2, .color_btn-3{
+  display: none;
 }

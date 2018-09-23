@@ -6,7 +6,7 @@ let pixelDataList = [];
 $(function() {
   canvas = $('#canvas')[0];
   ctx = canvas.getContext('2d');
-  canvas.width = 600;
+  canvas.width = 200;
   canvas.height = 400;
   ctx.style = "#000000";
   ctx.fillRect(0,0,10,10);
@@ -32,8 +32,8 @@ function loadImage(name, num) {
       imgCanvas[i].width = width;
       imgCanvas[i].height = height;
 
-      $(imgCanvas[i]).width(width*4);
-      $(imgCanvas[i]).height(height*4);
+      $(imgCanvas[i]).width(width*3);
+      $(imgCanvas[i]).height(height*3);
 
       let imgCtx = imgCanvas[i].getContext('2d');
       imgCtx.drawImage(this, 0, 0, width, height);
