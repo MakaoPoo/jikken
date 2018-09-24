@@ -62,6 +62,7 @@ $('.default_btn').on('click', function() {
   wrapper.children('.range-g').val(color.g);
   wrapper.children('.range-b').val(color.b);
   imageData.setDefaultColor(name);
+  imageData2.setDefaultColor(name);
   draw();
 
   $('#link1').attr("href", 'data:application/json;charset=UTF-8,' +
